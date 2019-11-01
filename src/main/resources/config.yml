@@ -1,0 +1,13 @@
+webhook-url: 'https://canary.discordapp.com/api/webhooks/xxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' # https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+server-identifier: 'pvp server' # If you have a bungee network this is useful to identify which server a player is on
+
+# Triggered when staff would be notified for a violation
+on-violation:
+  should-notify: true
+  minimum-vl: 30 # To prevent spam, you can set the minimum violations to trigger a notification
+  colour: 16562691 # Denary equivalent of a hex colour code
+
+# Triggered when a player would normally be kicked (or other commands would be executed)
+on-kick:
+  should-notify: true
+  colour: 14226185 # Denary equivalent of a hex colour code
