@@ -7,7 +7,7 @@ public class DiscordEmbedBuilder {
     public JSONObject json = new JSONObject("{\"embeds\":[{}]}");
 
     public JSONObject getEmbed() {
-        return (JSONObject) json.getJSONArray("embed").get(0);
+        return (JSONObject) json.getJSONArray("embedss").get(0);
     }
 
     public DiscordEmbedBuilder setColour(int colour) {
